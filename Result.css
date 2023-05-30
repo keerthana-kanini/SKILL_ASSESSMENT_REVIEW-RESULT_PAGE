@@ -1,14 +1,13 @@
 .Overlay{
-    box-sizing: border-box;
-    border-radius: 14px;
-    background: #FFFFFF;
-    position: absolute;
+box-sizing: border-box;
+border-radius: 14px;
+background: #FFFFFF;
+position: absolute;
 width: 1525px;
 height: 849px;
 left: 330px;
 border: 1px solid #D9D9D9;
 top: 156px;
-/* border: 1px solid black; */
 }
 .Overlay h3{
 position: absolute;
@@ -24,7 +23,6 @@ font-weight: 600;
 font-size: 18px;
 line-height: 25px;
 color: #0C1116;
-
 }
 .Overlay h2{
 position: absolute;
@@ -51,7 +49,6 @@ bottom: 777px;
 right: 1457px;
 background: #DFF3FB;
 border-radius: 6px;
-/* border: 1px solid black; */
 }
 .arrow1{
 position: absolute;
@@ -107,7 +104,6 @@ bottom: 544px;
 box-sizing: border-box;
 border: 1px solid #A8B0B9;
 border-radius: 4px;
-/* border: 1px solid black; */
 }
 .Option2{
 position: absolute;
@@ -120,10 +116,8 @@ bottom: 464px;
 box-sizing: border-box;
 border: 1px solid #A8B0B9;
 border-radius: 4px;
-/* border: 1px solid black; */
 }
 .Option3{
-   /* Option_3 */
 position: absolute;
 width: 996px;
 height: 70px;
@@ -134,7 +128,6 @@ bottom: 384px;
 box-sizing: border-box;
 border: 1px solid #A8B0B9;
 border-radius: 4px;
-/* border: 1px solid black; */
 }
 .Option4{
     position: absolute;
@@ -147,7 +140,6 @@ bottom: 304px;
 box-sizing: border-box;
 border: 1px solid #A8B0B9;
 border-radius: 4px;
-/* border: 1px solid black; */
 }
 #radio1{
     box-sizing: border-box;
@@ -199,8 +191,6 @@ border-radius: 4px;
     box-sizing: border-box;
     border: 1px solid #D6D6D6;
 border-radius: 10px;
-/* border: 1px solid black; */
-
 }
 .Questionstatus1{
     
@@ -744,7 +734,6 @@ box-sizing: border-box;
 background: #FFFFFF;
 border: 1px solid #D6D6D6;
 border-radius: 4px;
-/* border: 1px solid black; */
 }
 .expl1{
  position: absolute;
@@ -777,7 +766,6 @@ width: 300px;
 height: 1080px;
 left: 0px;
 top: 0px;
-/* border: 1px solid black; */
 background: linear-gradient(179.54deg, #AFE0F4 5.55%, #E1EEC8 194.36%);
 }
 .kaninilogo { 
@@ -951,7 +939,6 @@ width: 1620px;
 height: 114px;
 left: 300px;
 top: 0px;
-/* border: 1px solid black; */
 filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.16));
 background: linear-gradient(138.51deg, rgba(223, 243, 251, 0.3) 59.84%, rgba(225, 238, 200, 0.3) 116.14%);
 }

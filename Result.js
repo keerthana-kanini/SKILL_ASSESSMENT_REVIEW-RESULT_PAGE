@@ -1,24 +1,3 @@
-// function changeContent() {
-//     // Get the content element
-//     const contentElement = document.getElementById('question_no_one');
-//     const contentElement1 = document.getElementById('question');
-//     const contentElement2 = document.getElementById('optionanswer');
-//     const contentElement3 = document.getElementById('option2answer');
-//     const contentElement4= document.getElementById('option3answer');
-//     const contentElement5 = document.getElementById('option4answer');
-    
-//     // Change the content
-//     contentElement.textContent = 'How Can Design Benifit From Online UX Communities?';
-//     contentElement1.textContent = 'Questions 2 of 11';
-//     contentElement2.textContent = 'Start a design business and file key legal documents';
-//     contentElement3.textContent = 'Share full case studies';
-//     contentElement4.textContent = 'Get inspiration from other designers';
-//     contentElement5.textContent = 'Communicate with company executives';
-
-//   }
-
-
-
 const contentArray = ["How Can Design Benifit From Online UX Communities?", "Find out the types of button from the options?", "How Can Design Benifit From Online UX Communities?","How Can Design Benifit From Online UX Communities?", "Find out the types of button from the options?", "How Can Design Benifit From Online UX Communities?","How Can Design Benifit From Online UX Communities?", "Find out the types of button from the options?", "How Can Design Benifit From Online UX Communities?"];
 const contentArray1 =["Questions 2 of 15","Questions 3 of 15","Questions 4 of 15","Questions 5 of 15","Questions 6 of 15","Questions 7 of 15","Questions 8 of 15","Questions 9 of 15","Questions 10 of 15","Questions 11 of 15","Questions 12 of 15","Questions 13 of 15","Questions 14 of 15","Questions 15 of 15"]
 const contentArray2=["Start a design business and file key legal documents","Start a design business and file key legal documents","Get inspiration from other designers","Get inspiration from other designers"]
