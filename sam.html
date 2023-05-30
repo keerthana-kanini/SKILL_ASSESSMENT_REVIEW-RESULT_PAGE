@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .radio input[type="radio"] {
+            display: none; /* Hide the default radio button */
+          }
+          
+          .radio label {
+            position: relative;
+            padding-left: 30px; /* Add space for the custom indicator */
+            cursor: pointer;
+          }
+          
+          .radio label::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+          }
+          
+          .radio input[type="radio"]:checked + label::before {
+            border-color: green;
+          }
+          
+          .radio input[type="radio"]:checked + label::after {
+            content: "\2714"; /* Unicode character for tick mark */
+            position: absolute;
+            top: 3px;
+            left: 5px;
+            font-size: 18px;
+            color: green;
+          }
+          
+          .radio input[type="radio"]:not(:checked) + label::after {
+            content: "\2717"; /* Unicode character for cross mark */
+            position: absolute;
+            top: 2px;
+            left: 6px;
+            font-size: 18px;
+            color: red;
+          }
+          
+    </style>
+</head>
+<body>
+    <div class="radio">
+        <input type="radio" name="answer" id="correct-answer">
+        <label for="correct-answer">Correct Answer</label>
+      </div>
+      
+      <div class="radio">
+        <input type="radio" name="answer" id="wrong-answer">
+        <label for="wrong-answer">Wrong Answer</label>
+      </div>
+      
+</body>
+</html>

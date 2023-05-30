@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Result.css">
+    <script src="Result.js"></script>
+</head>
+<body>
+    <div class="Overlay">
+    <h3>ASS04_UXUI_001</h3>
+    <!--Attempted on Aug 15, 2022 | 12:45 pm -->
+    <h2> Attempted on Aug 15, 2022 | 12:45 pm</h2>
+    <h2 style="left: 399px;">No. Of Questions: 15 </h2>
+    <h2 style="left: 583px;">Level: Upskill</h2>
+    <div class="points">
+        <h4> Points Earned: 110/150</h4>
+        <h2 style="top: 50px;">Time Taken: 0:21:16</h2>
+    </div>
+
+   
+    <div class="arrow">
+        <div class="arrow1">
+            <img src="svg/arrow.svg">
+        </div>
+        
+        
+    </div>
+        <div class="line"></div>
+        <div id="question1to15" class="question1to15">Question 1  <h3 style="top:-2px; left:100px;color: #717D8A;">|</h3><h3 style="top:-2px; left:120px;color: #717D8A;">Level: Basic</h3></div>
+        <div id="question1" class="question1">When do design sprint retrospectives usually takeplace ?</div>
+
+        <div class="Option1">
+                <input type="radio" id="radio1">
+                <div id ="choice1" class="choice1">A couple weeks before a design sprint</div>
+              </div>
+            <div class="Option2">
+                <input type="radio" id="radio1">
+                <div id ="choice2" class="choice1"> During a design sprint</div>
+            </div>
+        <div class="Option3">
+            <input type="radio" id="radio1">
+                <div id ="choice3" class="choice1">Immediately after a design sprint </div>
+        </div>
+        <div class="Option4">
+            <input type="radio" id="radio1">
+                <div id ="choice4" class="choice1"> A few weeks after the design sprint </div>
+        </div>
+        <div class=timetaken>
+            Time Taken:  0:00:30
+          </div>
+        <div class="QuestionStatus">
+            <div class="Questionstatus1">Question Status</div>
+            <button id="q1">1</button>
+            <button id="q2">2</button>
+            <button id="q3">3</button>
+            <button id="q4">4</button>
+            <button id="q5">5</button>
+            <button id="q6">6</button>
+            <button id="q7">7</button>
+            <button id="q8">8</button>
+            <button id="q9">9</button>
+            <button id="q10">10</button>
+            <button id="q11">11</button>
+            <button id="q12">12</button>
+            <button id="q13">13</button>
+            <button id="q14">14</button>
+            <button id="q15">15</button>
+        
+
+        </div>
+        <!--Next Button-->
+        <button class="Nextbtn" onclick="changeContent('next')">Next</button>
+        <!--Previous Button-->
+        <button class="Previousbtn"  onclick="changeContent('previous')">Previous</button>
+        <div class="Explanationname">Explanation</div>
+        <div class="Explanation">
+            <div class="expl1">B. anonymous function</div>
+            <div class="expl2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor audantium, totam rem aperi eaque ipsa quae ab illo inventore.</div>
+        </div>
+        
+
+
+    </div>
+    <div class="Sidebar">
+       <div class=kaninilogo><span  class="kaninilogo1">Kanini</span><span  class="kaninilogo2">Assessment</span></div>
+          <div class="kaninilogo3">
+            <img src="svg/kaninilogo.svg">
+          </div>
+        <span  class="dashboard">Dashboard</span>
+        <div class="dashboard1">
+          <img src="svg/das.svg">
+        </div>
+    <span  class="Takeass">Take Assessment</span>
+    <div class="Takeass1">
+      <img src="svg/takeass.svg">
+    </div>
+    <span  class="Allocateass">Allocated Assessment</span>
+    <div class="Allocateass1">
+      <img src="svg/allocateass.svg">
+    </div>
+    <span  class="Result">Result</span>
+    <div class="Result1">
+      <img src="svg/result.svg">
+    </div>
+    <span  class="Settings">Settings</span>
+    <div class="Settings1">
+      <img src="svg/setting.svg">
+    </div>
+    <span  class="Result">Result</span>
+    <div class="Result1">
+      <img src="svg/result.svg">
+    </div>
+    <span  class="Logout">Logout</span>
+    <div class="Logout1">
+      <img src="svg/logout.svg">
+    </div>
+            
+          </div>
+    </div>
+    <div class="Navbar">
+        <div class="rr">Review & Result</div>
+        <div class="rr1">View complete details of all location and its corresponding details.</div>
+        <label for="search1"></label>
+        <input type="text" id="search" placeholder="Search here...." style=" border-color: gray;">
+        <div class="bell"><img src="svg/bell.svg"></div> 
+        <div class="subra">
+            <img src="svg/subra.svg">
+          </div><span  class="subra1">Subramaniyam</span>
+    </div>
+    
+
+    
+</body>
+</html>
